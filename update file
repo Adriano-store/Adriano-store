@@ -1,6 +1,6 @@
 {
-  "Version": "2.0.0",
-  "ReleaseNotes": "TESTE UPDATE ONLINE",
+  "Version": "2.0.1",
+  "ReleaseNotes": "ATUALIZAR AGORA!",
   "UrlUpdate": "https://raw.githubusercontent.com/Adriano-store/conecta4g/main/update%20file",
   "Sms": "https://raw.githubusercontent.com/Adriano-store/conecta4g/main/UrLSms",
   "EmailFeedback": "",
@@ -29,7 +29,7 @@
       "TYPE": "premium ",
       "FLAG": "br.png",
       "ServerIP": "Ca.cloudflary.online",
-      "CheckUser": "http://68.183.63.220:5454/checkUser",
+      "CheckUser": "http://193.123.100.136:5454/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
       "USER": "",
@@ -120,3 +120,4 @@
     }
   ]
 }
+
