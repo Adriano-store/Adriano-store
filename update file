@@ -1,122 +1,102 @@
 {
-  "Versão": "1.0.1",
-  "ReleaseNotes": "ATUALIZAR AGORA!",
+  "Version": "2.0.1",
+  "ReleaseNotes": "ATUALIZE AGORA!1",
   "UrlUpdate": "https://raw.githubusercontent.com/Adriano-store/conecta4g/main/update%20file",
   "Sms": "https://raw.githubusercontent.com/Adriano-store/conecta4g/main/UrLSms",
   "EmailFeedback": "",
   "UrlContato": "https://wa.me/message/AAFCJFZBAUPLF1",
   "UrlTermos": "https://raw.githubusercontent.com/Adriano-store/conecta4g/main/termosl",
-  "CheckUser": "verdadeiro",
+  "CheckUser": "true",
   "Udp": [
     {
       "Porta": "7300"
     }
   ],
-  "Servidores": [
+  "Servers": [
    {
-      "Nome": "PLUSS STORE | HOST",
-      "TIPO": "premium",
-      "BANDEIRA": "br.png",
+      "Name": "PLUSS STORE | HOST",
+      "TYPE": "premium",
+      "FLAG": "br.png",
       "ServerIP": "Ca.cloudflary.host",
       "CheckUser": "http://209.14.68.101:5454/checkUser",
       "ServerPort": "22",
-      "Porta SSL": "443",
-      "DO UTILIZADOR": "",
-      "PASSAR": ""
+      "SSLPort": "443",
+      "USER": "",
+      "PASS": ""
     },
     {
-      "Nome": "PLUSS STORE | ONLINE",
-      "TIPO": "premium",
-      "BANDEIRA": "br.png",
+      "Name": "PLUSS STORE | ONLINE",
+      "TYPE": "premium ",
+      "FLAG": "br.png",
       "ServerIP": "Ca.cloudflary.online",
       "CheckUser": "http://193.123.100.136:5454/checkUser",
       "ServerPort": "22",
-      "Porta SSL": "443",
-      "DO UTILIZADOR": "",
-      "PASSAR": ""
+      "SSLPort": "443",
+      "USER": "",
+      "PASS": ""
     },
 	{
-      "Nome": "EMERGÊNCIA | LOJA.XYZ",
-      "TIPO": "grátis",
-      "BANDEIRA": "br.png",
+      "Name": "EMERGÊNCIA | STORE.XYZ",
+      "TYPE": "free",
+      "FLAG": "br.png",
       "ServerIP": "Ca.plussstore.xyz",
-      "VerificarUsuário": ".",
+      "CheckUser": ".",
       "ServerPort": "22",
-      "Porta SSL": "443",
-      "USUÁRIO": "12345",
+      "SSLPort": "443",
+      "USER": "12345",
       "PASS": "1234"
     }
   ],
-  "Redes": [
+  "Networks": [
     {
-      "Nome": "VIVO 01",
-      "BANDEIRA": "vivo",
+      "Name": "VIVO PROXY 01",
+      "FLAG": "vivo",
       "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.16.56.6",
       "ProxyPort": "80",
-      "Informações": "Proxy"
+      "Info": "Proxy"
     },
     {
-      "Nome": "VIVO 02",
-      "BANDEIRA": "vivo",
+      "Name": "VIVO TLS 02",
+      "FLAG": "vivo",
       "Payload": "GET / HTTP/1.1[crlf]Host: [app_host[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "[app_host]",
-      "TlsIP": "",
-      "IP de Proxy": "104.16.18.94",
-      "Porta proxy": "80",
-      "Informações": "turbo"
+      "TlsIP": "104.16.18.94",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
     },
     {
-      "Nome": "TIM PROXY 01",
-      "BANDEIRA": "tim",
-      "Payload": "GET wss://mobilidade.cloud.caixa.gov.br [protocol][crlf]Host: [app_host][crlf]X-Forwarded-For: [app_host][crlf]Connection: Keep-Alive [crlf]User-Agent: [ua][crlf]Atualização: websocket[crlf][crlf]",
+      "Name": "TIM PROXY 01",
+      "FLAG": "tim",
+      "Payload": "GET wss://mobilidade.cloud.caixa.gov.br [protocol][crlf]Host: [app_host][crlf]X-Forwarded-For: [app_host][crlf]Connection: Keep-Alive[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.16.56.6",
       "ProxyPort": "80",
-      "Informações": "Proxy"
+      "Info": "Proxy"
     },
     {
-      "Nome": "TIM TLS 02",
-      "BANDEIRA": "tim",
+      "Name": "TIM TLS 02",
+      "FLAG": "tim",
       "Payload": "GET ws://mobilidade.cloud.caixa.gov.br HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
       "SNI": "mobilidade.cloud.caixa.gov.br",
       "TlsIP": "mobilidade.cloud.caixa.gov.br",
-      "IP de Proxy": "",
-      "Porta proxy": "",
-      "Informações": "Tlsws"
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
     },
     {
-      "Nome": "TIM TLS 03",
-      "BANDEIRA": "tim",
-      "Payload": "GET wss://m.timbancavirtual.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "m.timbancavirtual.com.br",
-      "TlsIP": "m.timbancavirtual.com.br",
-      "IP de Proxy": "",
-      "Porta proxy": "",
-      "Informações": "Tlsws"
-    },
-    {
-      "Nome": "CLARO TLS 01",
-      "BANDEIRA": "claro",
+      "Name": "CLARO TLS 01",
+      "FLAG": "claro",
       "Payload": "GET ws://no.descomplica.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
       "SNI": "no.descomplica.com.br",
       "TlsIP": "no.descomplica.com.br",
-      "IP de Proxy": "",
-      "Porta proxy": "",
-      "Informações": "Tlsws"
-    },
-    {
-      "Nome": "CLARO TLS 02",
-      "BANDEIRA": "claro",
-      "Payload": "GET ws://mobilidade.cloud.caixa.gov.br HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
-      "SNI": "mobilidade.cloud.caixa.gov.br",
-      "TlsIP": "mobilidade.cloud.caixa.gov.br",
-      "IP de Proxy": "",
-      "Porta proxy": "",
-      "Informações": "Tlsws"
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
     }
   ]
 }
