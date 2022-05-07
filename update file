@@ -1,5 +1,5 @@
 {
-  "Versão": "2.0.1",
+  "Versão": "2.0.2",
   "ReleaseNotes": "ATUALIZAR AGORA!",
   "UrlUpdate": "https://raw.githubusercontent.com/Adriano-store/conecta4g/main/update%20file",
   "Sms": "https://raw.githubusercontent.com/Adriano-store/conecta4g/main/UrLSms",
@@ -120,3 +120,4 @@
     }
   ]
 }
+
