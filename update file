@@ -1,5 +1,5 @@
 {
-  "Version": "2.2.1",
+  "Version": "2.2.2",
   "ReleaseNotes": "ATUALIZAÇÃO DISPONÍVEL",
   "UrlUpdate": "https://raw.githubusercontent.com/Adriano-store/conecta4g/main/update%20file",
   "Sms": "https://raw.githubusercontent.com/Adriano-store/conecta4g/main/UrLSms",
@@ -109,13 +109,13 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "Todas as Operadoras",
+      "Name": "TODAS OPERADORAS ON",
       "FLAG": "vivo",
       "Payload": "GET ws://mobilidade.cloud.caixa.gov.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
       "SNI": "mobilidade.cloud.caixa.gov.br",
-      "TlsIP": "104.16.56.6",
+      "TlsIP": "104.18.7.80",
       "ProxyIP": "",
-      "ProxyPort": "",
+      "ProxyPort": "443",
       "Info": "Tlsws"
     }
   ]
