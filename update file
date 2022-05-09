@@ -1,5 +1,5 @@
 {
-  "Version": "2.2.0",
+  "Version": "2.2.1",
   "ReleaseNotes": "ATUALIZAÇÃO DISPONÍVEL",
   "UrlUpdate": "https://raw.githubusercontent.com/Adriano-store/conecta4g/main/update%20file",
   "Sms": "https://raw.githubusercontent.com/Adriano-store/conecta4g/main/UrLSms",
@@ -47,7 +47,7 @@
       "PASS": "1234"
     }
   ],
-  "Networks": [
+   "Networks": [
     {
       "Name": "VIVO 01",
       "FLAG": "vivo",
@@ -63,10 +63,10 @@
       "FLAG": "vivo",
       "Payload": "GET / HTTP/1.1[crlf]Host: [app_host[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "[app_host]",
-      "TlsIP": "104.18.7.80",
-      "ProxyIP": "",
-      "ProxyPort": "",
-      "Info": "Tlsws"
+      "TlsIP": "",
+      "ProxyIP": "104.16.18.94",
+      "ProxyPort": "80",
+      "Info": "host"
     },
     {
       "Name": "TIM 01",
@@ -109,11 +109,11 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "CLARO TLS 02",
-      "FLAG": "claro",
-      "Payload": "GET ws://mobilidade.cloud.caixa.gov.br HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
+      "Name": "Todas as Operadoras",
+      "FLAG": "vivo",
+      "Payload": "GET ws://mobilidade.cloud.caixa.gov.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
       "SNI": "mobilidade.cloud.caixa.gov.br",
-      "TlsIP": "mobilidade.cloud.caixa.gov.br",
+      "TlsIP": "104.16.56.6",
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
